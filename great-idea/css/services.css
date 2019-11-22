@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -139,9 +134,10 @@ table {
 	box-sizing: border-box;
 }
 
+
 /*div,
 section,
-li {
+main {
 	border: 1px solid black;
 }*/
 
@@ -185,87 +181,86 @@ nav li a {
 
 /* Hero Area */
 .hero-area {
-	margin-top: 80px;
 	display: flex;
-	flex-direction: row;
-	text-align: center;
-	width: 100%;
-	justify-content: flex-start;
-}
-
-.hero-area h1 {
-	font-size: 100px;
-	width: 40%;
-}
-
-.txtBtn {
-	display: flex;
+	justify-content: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
-.txtBtn button {
-	margin-top: 10px;
-	background: white;
-	border: 1px solid black;
-	padding: 5px 40px 5px 40px;
-	font-size: 15px;
+.services h2 {
+	margin-top: 25px;
+}
+
+.services {
+	display: flex;
+	text-align: left;
+	flex-direction: column;
+	width: 86.5%;
 }
 
 /* Main */
 main {
-	text-align: center;
 	display: flex;
-	flex-direction: column;
-	margin: 0 105px 0 105px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
 
-.top {
+.container {
 	display: flex;
-	margin-bottom: 50px;
+	flex-wrap: wrap;
+	width: 92.5%;
+	align-items: center;
+	justify-content: center;
 }
 
-.bottom {
+.card {
+	padding: 25px;
+	width: 45%;
+	margin: 25px;
+	background: #f4f3f4;
+}
+
+.card button {
+	margin-top: 15px;
+	border: 1px solid black;
+	padding: 5px 20px 5px 20px;
+	background: white;
+}
+
+/* Facts */
+.bottom-sec {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.container2 {
 	display: flex;
-	margin-top: 50px;
+	width: 86.5%;
 }
 
-.para h3,
-p {
-	text-align: left;
+.facts p {
+	width: 50%;
 }
 
-.para p {
-	width: 60%;
+.facts li {
+	margin-bottom: 10px;
 }
 
-.para2 p {
-	width: 98%;
-}
-
-.para2 h3,
-p {
-	text-align: left;
-}
-
-/* Contact */
-.contact {
-	margin-left: 105px;
+hr {
+	width: 86.5%;
 }
 
 /* Footer */
 footer {
-	margin: 50px 0 50px 0;
-	padding-bottom: 25px;
-}
-
-footer p {
+	margin-top: 25px;
 	text-align: center;
-}
-
-/* hr */
-hr {
-	width: 86.5%;
-	margin-top: 80px;
-	margin-bottom: 80px;
+	padding: 25px;
 }
